@@ -1,0 +1,23 @@
+.about-sec{
+    color: #fff;
+    background: black;
+    text-align: left;
+}
+
+h1{
+    font-size: 30px;
+    letter-spacing: 6px;
+    padding-bottom: 18px;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 16px;
+}
+
+p{
+    color: #fff;
+    font-size: 16px;
+    line-height: 25px;
+    padding: 20px;
+    letter-spacing: 0.4px;
+    font-family: 'Source Sans Pro', sans-serif;
+}

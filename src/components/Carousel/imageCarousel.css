@@ -1,0 +1,27 @@
+#carousel{
+    float: left;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.carousel-img{ 
+    width: 90%;
+    height: 400px;
+    position: absolute;
+    opacity: 0;
+}
+
+.carousel-img0{
+    opacity: 1;
+}
+
+#carousel:hover img.carousel-img0{
+    filter: blur(2px);
+    cursor: pointer;
+}
+
+#carousel:hover + a.job-btn-list{
+    display: block;
+}
+
+
+

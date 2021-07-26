@@ -1,0 +1,17 @@
+.welcome-sec{
+    display: flex;
+    flex-direction: row;
+    background-image: url('https://images03.nicepage.com/a1389d7bc73adea1e1c1fb7e/903a13354fd85ab58da0a12a/pexelsphoto267885.jpg');
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    height: 700px;
+}
+.content{
+    float: left;
+    color: #fff;
+    font-family: 'Abril Fatface', cursive !important;
+    margin-left: 20%;
+    margin-top: 15%;
+    text-align: left;
+    font-size: 2rem;
+}

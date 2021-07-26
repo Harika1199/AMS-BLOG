@@ -1,0 +1,25 @@
+.jobs-btns{
+    display: flex;
+    flex-direction: row;
+}
+.job-btn{
+    width: max-content;
+    height: max-content;
+    background-color: #e42121;
+    color: #fff;
+    text-align: center !important;
+    padding: 10px;
+    margin: auto;
+}
+.job-btn-list{
+    display: none;
+    background: blue;
+}
+.job-btn-apply{
+    display: none;
+    background: green;
+}
+.job-btn-post{
+    display: none;
+    background: yellow;
+}
