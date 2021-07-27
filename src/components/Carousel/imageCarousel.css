@@ -1,5 +1,4 @@
 #carousel{
-    float: left;
     margin-left: 5%;
     margin-right: 5%;
 }
@@ -7,21 +6,43 @@
     width: 90%;
     height: 400px;
     position: absolute;
-    opacity: 0;
+    display: none;
 }
 
 .carousel-img0{
-    opacity: 1;
+    display: block;
 }
 
 #carousel:hover img.carousel-img0{
     filter: blur(2px);
+}
+
+.each-image{
+    display: flex;
+}
+
+.job-btn-div{
+    min-width: 800px;
+    z-index: 99999;
+    text-align: center;
+    margin-right: 50%;
+    margin-left: 45%;
+    margin-top: 15%
+}
+
+.job-btn{
+    display: none;
+    width: 150px;
+    height: 35px;
+    border: 2px solid yellow;
+    background: transparent;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+#carousel:hover button.job-btn-0{
+    display: block;
     cursor: pointer;
 }
-
-#carousel:hover + a.job-btn-list{
-    display: block;
-}
-
-
 

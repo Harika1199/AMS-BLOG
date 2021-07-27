@@ -1,0 +1,21 @@
+#workshops{
+    background: black;
+}
+.tandw{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.tandw img{
+    width: 500px;
+}
+
+h1{
+    color: white !important;
+}
+h6{
+    color: white !important;
+    font-size: 16px;
+    margin-left: 20px;
+}

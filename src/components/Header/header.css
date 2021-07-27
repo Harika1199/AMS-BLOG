@@ -1,30 +1,30 @@
-body {font-family: Arial, Helvetica, sans-serif;}
+#header a{
+  font-size: 20px !important;
+  margin-right: 30px;
+}
 
-.navbar {
+.header{
   width: 100%;
-  background-color: #555;
-  overflow: auto;
+  position: fixed;
+  height: 50px;
+  background: rgb(167, 162, 162);
+  color: black;
+  z-index: 99999;
 }
 
-.navbar a {
-  float: left;
-  padding: 12px;
-  color: white;
-  text-decoration: none;
-  font-size: 17px;
+.fa{
+  padding: 10px !important;
+  margin-right: 2px !important;
 }
 
-.navbar a:hover {
-  background-color: #000;
+@media screen and (max-width: 786px) {
+  .header{ 
+    height: 100px;
+  }
 }
 
-.active {
-  background-color: #04AA6D;
-}
-
-@media screen and (max-width: 500px) {
-  .navbar a {
-    float: none;
-    display: block;
+@media screen and (max-width: 380px) {
+  .header{ 
+    height: 150px;
   }
 }
