@@ -15,6 +15,7 @@ export function Footer() {
                     <a href="#" className="fa fa-linkedin"></a>
                 </div>
             </div>
+            <hr></hr>
             <div className="email-ams">
                 <p>@alumni | Email: ams@gmail.com</p>
             </div>
